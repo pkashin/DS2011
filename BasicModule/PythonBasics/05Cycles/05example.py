@@ -24,8 +24,12 @@
 #         break
 #     print(var)
 
-for var in 'Python':
-    if var == 'a':
-        break
-else:
-    print('Символа a нет в слове Python')
+# for var in 'Python':
+#     if var == 'a':
+#         break
+# else:
+#     print('Символа a нет в слове Python')
+
+x = range(10, 1, -1)
+for i in x:
+    print(x)
